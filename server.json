@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tobbykuyinu/pankow-mcp",
+  "title": "Pankow AI Testing",
+  "description": "Test and evaluate LLM apps: manage orgs, projects, test cases, and CI runs via MCP",
+  "version": "1.0.0",
+  "websiteUrl": "https://pankow-production.up.railway.app",
+  "repository": {
+    "url": "https://github.com/Markera-OU/pankow-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pankow-production.up.railway.app/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer MCP access key (pankow_mcp_…) from your Pankow account settings",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
