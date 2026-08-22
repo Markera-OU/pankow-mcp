@@ -7,7 +7,7 @@
 - 🧰 11 tool definitions (the platform's 10 MCP tools: `run_tests` + `run_tests_cli`)
 - 🔐 Auth: `Authorization: Bearer pankow_mcp_<key>` — user-level MCP access keys from Pankow Account Settings
 
-> **Namespace note:** the registry name is `io.github.tobbykuyinu/pankow-mcp`. GitHub-based registry namespaces are granted per GitHub *username* (`io.github.<username>/*`); `tobbykuyinu` is the authenticated publisher account, while the repo lives under the `Markera-OU` organization. We will migrate the namespace if the registry introduces provable org-namespace rules.
+> **Namespace note:** the registry name is `io.github.markera-ou/pankow-mcp`. GitHub-based registry auth grants org namespaces (`io.github.<orgname>/*`) when the publisher is an **Owner** of the organization — verified: the publishing account holds the `admin` role in `Markera-OU`.
 
 ## Quick Start
 

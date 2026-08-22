@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.tobbykuyinu/pankow-mcp",
+  "name": "io.github.markera-ou/pankow-mcp",
   "title": "Pankow AI Testing",
   "description": "Test and evaluate LLM apps: manage orgs, projects, test cases, and CI runs via MCP",
   "version": "1.0.0",
