@@ -4,6 +4,13 @@ All notable changes to the Pankow MCP server storefront.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] — 2026-08-23
+
+### Changed
+- 13 tool definitions: added `list_runs` and `get_run` (run observability with per-test failure diagnostics).
+- Tool descriptions enriched with examples and gotchas; server/discover instructions now teach the full workflow (concept map, setup recipe, placeholder semantics, auth guidance, lifecycle).
+- Static headers (auth/chat/preflight) documented as supported.
+
 ## [1.0.0] — 2026-08-22
 
 ### Added
