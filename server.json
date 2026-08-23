@@ -3,7 +3,7 @@
   "name": "io.github.markera-ou/pankow-mcp",
   "title": "Pankow AI Testing",
   "description": "Test and evaluate LLM apps: manage orgs, projects, test cases, and CI runs via MCP",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://pankow-production.up.railway.app",
   "repository": {
     "url": "https://github.com/Markera-OU/pankow-mcp",

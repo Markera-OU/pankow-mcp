@@ -4,7 +4,7 @@
 
 - 🔗 Endpoint: `https://pankow-production.up.railway.app/mcp` (switches to `https://pankow.ai/mcp` when the pankow.ai domain lands)
 - 🚀 Transport: Streamable HTTP, JSON-RPC 2.0 (MCP revision 2026-07-28)
-- 🧰 13 tool definitions (the platform's 10 MCP tools, plus `list_runs` / `get_run` observability)
+- 🧰 14 tool definitions (the platform's 10 MCP tools, plus `get_config` / `list_runs` / `get_run` observability)
 - 🔐 Auth: `Authorization: Bearer pankow_mcp_<key>` — user-level MCP access keys from Pankow Account Settings
 
 > **Namespace note:** the registry name is `io.github.markera-ou/pankow-mcp`. GitHub-based registry auth grants org namespaces (`io.github.<orgname>/*`) when the publisher is an **Owner** of the organization — verified: the publishing account holds the `admin` role in `Markera-OU`.
@@ -52,6 +52,7 @@ claude mcp add pankow --transport http https://pankow-production.up.railway.app/
 | `configure_project` | Write | Configure the target AI (auth incl. session login, static headers, chat endpoint, preflight, seeds) — field reference generated from the Super Config Schema |
 | `update_test` | Write | Edit a test case |
 | `delete_test` | Write | Delete a test case |
+| `get_config` | Read | Read back a project's saved config (masked echo) |
 | `list_runs` | Read | List a project's runs with per-test results + failure diagnostics |
 | `get_run` | Read | One run's full detail (status, config, results) |
 | `run_tests` | Write | Queue a server-side test run |

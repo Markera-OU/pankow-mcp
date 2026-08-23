@@ -1,0 +1,26 @@
+{
+  "name": "pankow-mcp",
+  "version": "1.0.0",
+  "description": "**Pankow MCP** is a streamable-HTTP MCP server that connects Claude and other MCP clients to the [Pankow](https://pankow-production.up.railway.app) AI testing platform. Manage organizations, projects, test cases, and CI runs — configure targets and run LLM evaluations directly from your agent.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markera-OU/pankow-mcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markera-OU/pankow-mcp/issues"
+  },
+  "homepage": "https://github.com/Markera-OU/pankow-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+}
