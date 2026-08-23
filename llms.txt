@@ -3,7 +3,7 @@
 > Pankow is an LLM testing and evaluation platform. This file documents the Pankow MCP server — a streamable-HTTP MCP server for managing AI tests, projects, and CI runs programmatically.
 
 MCP endpoint: https://pankow-production.up.railway.app/mcp (Streamable HTTP, JSON-RPC 2.0, MCP revision 2026-07-28).
-The server exposes 11 tool definitions (the platform's 10 MCP tools) for listing and managing Pankow resources.
+The server exposes 13 tool definitions (the platform's 10 MCP tools plus list_runs/get_run) for listing and managing Pankow resources.
 
 ## Getting Started
 - [Pankow](https://pankow-production.up.railway.app/): The Pankow platform — sign up and manage your AI tests
